@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Messenger</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="continue.css">
+    <script src="continue.js"></script>
+</head>
+
+<body>
+    <center>
+        <label id="statement"></label>
+        <br> <br>
+        <label>Do you want to continue?</label>
+        <br> <br>
+        <button class="btn btn-success btn-lg" onclick="yes()">Yes</button>
+        <button class="btn btn-danger btn-lg" onclick="no()">No</button>
+        <br> <br>
+        <p>Wait a few seconds until a message pops up or else continue</p>
+    </center>
+</body>
+
+</html>

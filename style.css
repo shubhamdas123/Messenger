@@ -1,0 +1,46 @@
+#logo {
+    height: 55px;
+    width: 100px;
+    margin-top: -5px;
+}
+
+.navbar-inverse {
+    height: 80px;
+}
+
+.nav {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.btn {
+    margin-left: 400px;
+    font-size: 25px;
+    width: 150px;
+}
+
+#item1 {
+    margin-left: 450px;
+}
+
+#item2 {
+    margin-left: 450px;
+    height: 300px;
+    width: 250px;
+}
+
+#item2text {
+    height: 300px;
+    width: auto;
+}
+
+#item3 {
+    margin-left: 300px;
+    height: 300px;
+    width: 450px;
+}
+
+#item3text {
+    height: 300px;
+    width: auto;
+}

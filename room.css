@@ -1,0 +1,67 @@
+.btn-danger {
+    float: right;
+    margin: 20px;
+    margin-top: -70px;
+}
+
+img {
+    width: 150px;
+    margin-top: -20px;
+}
+
+h1 {
+    margin-left: 450px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#output {
+    text-align: left;
+    margin-bottom: 70px;
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+#sendDiv {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#messageInput {
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    border: black 1px solid;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-right: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+#btnSend {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    border: black 1px solid;
+    margin-top: -10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+}
